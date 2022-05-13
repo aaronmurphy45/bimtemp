@@ -1,22 +1,189 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-    <div className="App">
-        <img alt="Flowers in Chania"></img>
-        <h1>Website Under Development!</h1>
-        <p>If you have any queries, please contact: 
-        </p>
-        <ul>
-          <li> General : info@bimco.ie  </li>
-          <li> Kerri Erasmus: kerrierasmus@bimco.ie  </li>
-          <li> Ruan Swart : ruanswart@bimco.ie </li>
-        </ul>
-         
-         
-        <footer>2nd Floor, 67-70 Meath Street, Dublin 8, Ireland.</footer>
-      </div>
-</body>
+<lang eng>
+    <head>
+        <title>BIMCo - Home</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel = "stylesheet" href = "bimco.css"/>
+
+    </head>
+    <style>
+      .container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 5px;
+  */
+}
+.bimcohome{
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+  
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: 100%;
+  /*opacity: 0.5;*/
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn1 {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(78,177,248);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border:  1px rgb(39,103,245) solid;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container .btn2 {
+  position: absolute;
+  top: 85%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(78,177,248);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 1px rgb(39,103,245) solid;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn3 {
+  position: absolute;
+  top: 85%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(78,177,248);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 1px rgb(39,103,245) solid;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn2:hover {
+  background-color:rgb(176,232,252);
+}
+.container .btn1:hover {
+  background-color: rgb(176,232,252);
+}
+.container .btn3:hover {
+  background-color: rgb(176,232,252);
+}
+#footerx{
+  background-color: black;
+  color: white;
+}
+#backgroundimage{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#whiteimage{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  opacity :0.5;
+  height: 100%;
+}
+    </style>
+    <body>
+
+      <img src = "image25.png" id = backgroundimage >
+      <img src = "white.png" id = whiteimage> 
+      <div class = "container" width = 100%>
+      <img id ="bimcohome"src = "image10.png" width="100%" height="100%">
+      <a class = "btn1" href="/services">Our Services  <tab>  </tab>         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg></a>
+      <a class = "btn2" href="/aboutus">About Us  <tab>  </tab>         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg></a>
+      <a class = "btn3" href="/home">Home <tab>  </tab>         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg></a>
+      <!--
+      <p class = "btn3" >Building Manfacturers</p>-->
+    </div>
+  </div>
+
+
+    
+    <!--
+    <footer id = "footerx">
+      <br/> <br/> <br/>
+        Building and Electrical Contractors <br/> <br/> <br/>
+        2nd Floor, 60-70 Meath Street, Dublin 9.  <br/>
+    </footer>
+    -->
+    
+      <!--
+        <details>
+        <summary>
+          Balbriiggan Nursing Home
+        </summary>
+        <br/>
+         Something Else 
+      </details>
+
+
+
+
+
+        <div class = "topnav">
+            <span>
+                <img src="FB01.jpg" alt="BimCo" class = "logo">
+                <a href='/' class='active'>Home</a>
+                <a href='/aboutus' class='aboutus'>About Us</a>
+                <a href='/services' class='services'>Services</a>
+                <a href='/projects' class='projects'>Projects</a>
+                <a href='/contact' class='contact'>Contact Us</a>
+            </span>
+        </div>
+      
+      
+    <footer class = "footer">
+        Tel: (01) 67 50 850 <br>
+        Email: info@bimco.ie <br>
+        Address: 67-70 Meath Street, D08 XY53, Dublin, Ireland
+    </footer>
+    <script src="index.js"></script>
+  -->
+  
+    </body>
+</lang>
 </html>

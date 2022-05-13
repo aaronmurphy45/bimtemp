@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<lang eng>
+    <head>
+        <title>BimCo</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel = "stylesheet" href = "bimco.css"/>
+    </head>
+    <body>
+        <div class = "topnav">
+            <span>
+              <a href='/home'><b>Home</b></a>
+                <a href='/aboutus'><b>About Us</b></a>
+                <a href='/services' class = "active" ><b>Services</b></a>
+                <!--
+                    <a href='/projects' class ="active">Projects</a>
+                -->
+                <a href='/contact' ><b>Contact Us</b></a>
+                <img src="FB01.jpg" alt="BimCo" class = "logo">
+            </span>
+        </div>
+        <div class = "topbar">
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            <div class="whitepanel"></div>
+        </div>
+        <style>
+            #backgroundimage{
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            }
+            #whiteimage{
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            opacity :0.5;
+            height: 100%;
+            }
+            #backgroundimage2{
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            top: 750px;
+            height: 100%;
+            }
+            #whiteimage2{
+            z-index: -1;
+            top: 750px;
+            position: absolute;
+            width: 100%;
+            opacity :0.5;
+            height: 100%;
+            }
+            #backgroundimage3{
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            top: 1500px;
+            height: 100%;
+            }
+            #whiteimage3{
+            z-index: -1;
+            top: 1500px;
+            position: absolute;
+            width: 100%;
+            opacity :0.5;
+            height: 100%;
+            }
+            #backgroundimage4{
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            top: 2250px;
+            height: 100%;
+            }
+            #whiteimage4{
+            z-index: -1;
+            top: 2250px;
+            position: absolute;
+            width: 100%;
+            opacity :0.5;
+            height: 100%;
+            }
+            #fordesigners{
+              max-width: 50%;
+              float: left;
+              display: table-cell;
+              border-right: 1px black solid;
+              overflow: scroll;
+              max-height: 70vh;
+            }
+            #forcontractors{
+              max-width: 50%;
+              overflow: scroll;
+              /*float: right;*/
+          
+              border-left: 1px black solid;
+              max-height: 70vh;
+            }
+        </style>
+        <img src = "image25.png" id = backgroundimage >
+        <img src = "white.png" id = whiteimage> 
+       
+        
+        <!--
+           <img src = "image18.jpeg" id = backgroundimage2 >
+        <img src = "white.png" id = whiteimage2> 
+          <img src = "image25.png" id = backgroundimage3 >
+        <img src = "white.png" id = whiteimage3>
+          <img src = "image18.jpeg" id = backgroundimage4 >
+        <img src = "white.png" id = whiteimage4>
+        -->
+        <div class = "servicescontent">
+            <div class = "servicescontent">
+                <br/>
+                <br/>
+                <br>
+                <br/>
+                <br/>
+                <br>
+                <br/>
+
+                <div id = "fordesigners">
+                  <div class = "panel-group">
+                    <div class = "panelpanel-default">
+                        <div class="panel-body">
+                            <h1 class = "header">For Designers</h1> 
+                            <hr/>
+                            <p>We utilize the latest BIM software, including Revit, Auto CAD, Navis Works, Recap, and Blender. <br/> <br/>
+                                 We can produce BIM models with LODs ranging from 100 to 500. (Level 2 LOD 1 to LOD 7). Our BIM models facilitate interoperability and allow for greater coordination flexibility and customizations.</p>
+
+                                 <br/>
+                                 <br/>
+                                 <br/><hr/><br/>
+
+                                <img src = "image1.png">
+                                 <hr/>
+
+                                 <h2>Design Stage</h2>
+                                 <hr/>
+                                 <p>We can produce design stage BIM models from LOD 100 to LOD 300 (LOD1 to LOD4) with accompanying 2D Design Layouts</p>
+                                 <br/><hr/><br/>
+
+                                 <img src = "image12.png">
+                                 <hr/>
+                                 <img src = "image6.png">
+                                 <hr/>
+
+
+                                 <h2>Walkthroughs</h2>
+                                 <hr/>
+                                 <p>We can create video clips and Virtual Reality walkthroughs of your model to demonstrate to your client or design team.</p>
+
+                                 <br/><hr/><br/>
+
+                                 <img src = "image5.png">
+                                 <hr/>
+
+                                 <!--
+
+                                  <div class="slideshow-container">
+
+                                 
+                                    <div class="mySlides fade">
+                                      <div class="numbertext">1 / 3</div>
+                                      <img src="image12.png" style="width:100%">
+                                      <div class="text">Caption Text</div>
+                                    </div>
+                                  
+                                    <div class="mySlides fade">
+                                      <div class="numbertext">2 / 3</div>
+                                      <img src="image15.png" style="width:100%">
+                                      <div class="text">Caption Two</div>
+                                    </div>
+                                  
+                                    <div class="mySlides fade">
+                                      <div class="numbertext">3 / 3</div>
+                                      <img src="image7.png" style="width:100%">
+                                      <div class="text">Caption Three</div>
+                                    </div>
+                                  
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                  </div>
+                                  <br>
+                                  
+                         
+                                  <div style="text-align:center">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                  </div>
+
+                                 -->
+
+                                </div>
+                              </div>
+                </div>
+                </div>
+                        
+
+                                 
+                                  <style>
+                                      * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+                 
+                 <div id = "forcontractors">
+                  <div class = "panelpanel-default">
+                    <div class="panel-body">
+                        <h1 class = "header">For Contractors</h1> 
+                        <hr/>
+                        <p>We have the latest BIM software, including Revit, Auto CAD, Navis Works, Recap, and Blender.<br/><br/> We can produce BIM models with LODs ranging from 100 to 500. (Level 2 LOD 1 to LOD 7). Our BIM models facilitate interoperability and allow for greater coordination flexibility and customizations..</p>
+
+                             <br/>
+                             <br/>
+                           
+                             <br/><hr/><br/>
+                             <img src = "image7.png" style = "max-width: 100%;">
+                             <br/><hr/><br/>
+
+                                 <h2>Construction Stage</h2>
+                                 <p>We can produce construction stage LOD400 (LOD5) BIM models along with the following outputs:
+                                     <ul>
+                                         <li>Coordinated Drawings</li>
+                                         <li>Fabrication Drawings</li>
+                                         <li>Installation Drawings</li>
+                                         <li>Builders Work Drawings</li>
+                                     </ul>
+                                </p>
+                                <hr/>
+                                <img src = "image8.png">
+                                 <br/><hr/><br/>
+                                 <h2>Handover Stage</h2>
+                                 <p>We can produce As-Built LOD500 (LOD7) BIM models for handover documentation.
+                                </p>
+                                <br/><hr/><br/>
+
+                                <img src = "image2.png">
+                                <hr/>
+
+                                 <h2>Clash Detection</h2>
+                                 <p>
+                                    To detect clashes between services and other building aspects, we can use a variety of clash detection algorithms.<br/> To minimise costly delays, we can work with you to address these conflicts before building begins in the affected areas.
+                                </p>
+
+                                 <br/><hr/><br/>
+
+                                 <img src = "techno.png">
+
+                                 <br/><hr/><br/>
+
+
+                              </div>
+                      
+                  </div>
+              </div>
+           
+            </div>
+            </div>
+
+                
+             </div>
+                 </div>
+                </div>
+    </body>
+    <footer class = "footer">
+      <hr/>
+        Tel: (01) 67 50 850 <br>
+        Email: info@bimco.ie <br>
+        Address: 67-70 Meath Street, D08 XY53, Dublin, Ireland
+        <br/>
+        <hr/>
+    </footer>
+</lang>
+</html>
